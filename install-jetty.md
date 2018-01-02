@@ -72,5 +72,5 @@ sudo apt-get update
 sudo apt-get install jetty9
 ```
 
-###$ Step 3: 
+#### Step 3: 
 

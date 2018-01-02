@@ -15,17 +15,17 @@
   
 #### Step 1 -  Installing JDK 8
 
-> Before starting with the installation..we have to ensure that our existing system is up to date with the latest packages.
+> - Before starting with the installation..we have to ensure that our existing system is up to date with the latest packages.
 
 ``` bash
  $ sudo apt-get update
  $ sudo apt-get upgrade
 ```
 
-> You are now running on the latest version of Ubuntu.
-> then We are installing JDK 8 by using WebUpd8 team PPA Repository.
-> We are using here WebUpd8 Repos which is consist of a script, which will automatically download and install JAVA 8.
-> Run the following command:
+> - You are now running on the latest version of Ubuntu.
+> - then We are installing JDK 8 by using WebUpd8 team PPA Repository.
+> - We are using here WebUpd8 Repos which is consist of a script, which will automatically download and install JAVA 8.
+> - Run the following command:
 
 ``` bash
 
@@ -59,5 +59,8 @@ $ sudo java -version
   Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 
 ```
-
+> - Here in output, we are able to see the java version:
+> - Java Version "1.8.0_45"
+> - Perfect! You have completed Step 1 correctly..
+> - ..let's move to Step 2 now.
 

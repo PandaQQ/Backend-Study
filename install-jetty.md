@@ -1,31 +1,30 @@
 # Install Jetty 9 on Ubuntu 16.04 as Jetty provides http server
 
 #### A bit More About Jetty 9:
-> - Jetty is a fantastic open source Java HTTP web server & Java Servlet Container.
-> - Jetty is not only free for personal use but can also be used for commercial purpose.
-> - Jetty was initially developed as an open source project that later joined hands with the team of Eclipse.
-> - It can serve content from web server and application and now is often used for machine to machine communication in larger software framework.
+- Jetty is a fantastic open source Java HTTP web server & Java Servlet Container.
+- Jetty is not only free for personal use but can also be used for commercial purpose.
+- Jetty was initially developed as an open source project that later joined hands with the team of Eclipse.
+- It can serve content from web server and application and now is often used for machine to machine communication in larger software framework.
   
 
 #### Here are pre-requisites for Installing Jetty 9:
-> To install Jetty 9 on ubuntu 16.04, we need following two things:
-> - An Ubuntu 16.04 server with sudo (You can always use sudo, in both case"($,#)"users.) as Jetty needs Java to run.
-> - And Oracle JDK 8 instead of OpenJDK in this tutorial.
+To install Jetty 9 on ubuntu 16.04, we need following two things:
+- An Ubuntu 16.04 server with sudo (You can always use sudo, in both case"($,#)"users.) as Jetty needs Java to run.
+- And Oracle JDK 8 instead of OpenJDK in this tutorial.
   
   
 #### Step 1: Installing JDK 8
-
-> - Before starting with the installation..we have to ensure that our existing system is up to date with the latest packages.
+- Before starting with the installation..we have to ensure that our existing system is up to date with the latest packages.
 
 ``` bash
  $ sudo apt-get update
  $ sudo apt-get upgrade
 ```
 
-> - You are now running on the latest version of Ubuntu.
-> - then We are installing JDK 8 by using WebUpd8 team PPA Repository.
-> - We are using here WebUpd8 Repos which is consist of a script, which will automatically download and install JAVA 8.
-> - Run the following command:
+- You are now running on the latest version of Ubuntu.
+- then We are installing JDK 8 by using WebUpd8 team PPA Repository.
+- We are using here WebUpd8 Repos which is consist of a script, which will automatically download and install JAVA 8.
+- Run the following command:
 
 ``` bash
 
@@ -66,7 +65,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 
 #### Step 2: Install Jetty 9
 
-> - Run the following command in order to install Jetty 9 on your Ubuntu machine.
+- Run the following command in order to install Jetty 9 on your Ubuntu machine.
 ``` bash
 sudo apt-get update
 sudo apt-get install jetty9

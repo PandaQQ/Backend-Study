@@ -27,7 +27,7 @@
 > - We are using here WebUpd8 Repos which is consist of a script, which will automatically download and install JAVA 8.
 > - Run the following command:
 
-```bash
+``` bash
 
 $ sudo apt-get install software-properties-common
  
@@ -64,10 +64,13 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 > - ..let's move to Step 2 now.
 
 
-#### Step 2: Install Jetty 8
-> - We will install Jetty 9 from WebUpd8 team PPA Repository.
+#### Step 2: Install Jetty 9
+
 > - Run the following command in order to install Jetty 9 on your Ubuntu machine.
-```bash
+``` bash
 sudo apt-get update
 sudo apt-get install jetty9
 ```
+
+###$ Step 3: 
+

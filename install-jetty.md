@@ -57,10 +57,10 @@ java version "1.8.0_45"
 Java(TM) SE Runtime Environment (build 1.8.0_45-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 ```
-> - Here in output, we are able to see the java version:
-> - Java Version "1.8.0_45"
-> - Perfect! You have completed Step 1 correctly..
-> - ..let's move to Step 2 now.
+- Here in output, we are able to see the java version:
+- Java Version "1.8.0_45"
+- Perfect! You have completed Step 1 correctly..
+- ..let's move to Step 2 now.
 
 
 #### Step 2: Install Jetty 9
@@ -71,5 +71,6 @@ sudo apt-get update
 sudo apt-get install jetty9
 ```
 
-#### Step 3: 
+#### Step 3: Configuration of Jetty8
 
+1. 

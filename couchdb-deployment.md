@@ -33,3 +33,24 @@ You should get something similar to the following:
 ```
 
 #### Step 2 - 
+- After installation need to modify config to let couchdb accessible by remote host
+``` bash
+$ sudo vim /home/couchdb/etc/local.ini
+
+[chttpd]
+
+...
+
+;bind_address = 127.0.0.1
+```
+- uncomment bind_address under [chttpd] and change the value to 0.0.0.0
+
+- Also need to restart coucdb service so that couchdb can access
+
+``` bash
+$ sv status couchdb
+$ sv restart couchdb
+$ sv stop couchdb
+```
+
+- Finally we can access to couchdb with http://{ip_address}:5984/_utils/

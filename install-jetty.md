@@ -80,3 +80,17 @@ service jetty9 status
 service jetty9 restart
 service jetty9 stop
 ```
+2. then we can put our {projectname}.war into /usr/share/jetty9/webapps
+3. Finally, we need a {projectname}.xml to configure
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+ <Set name="contextPath">/api</Set>
+ <Set name="war"><Property name="jetty.webapps" default="."/>/{projectname}.war</Set>
+ <Set name="extractWAR">true</Set>
+</Configure>
+
+```

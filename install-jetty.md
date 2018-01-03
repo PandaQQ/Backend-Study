@@ -73,4 +73,10 @@ sudo apt-get install jetty9
 
 #### Step 3: Configuration of Jetty8
 
-1. 
+1. After install jetty9, we can check jetty9 status with:
+
+``` bash
+service jetty9 status
+service jetty9 restart
+service jetty9 stop
+```
